@@ -56,6 +56,11 @@ h1, h2, h3, label, button {
     font-size: 32px;
     text-align: center;
 }
+
+.label {
+    margin: 0px 10px;
+}
+
 p, a, li, blockquote, input {
     font-family: var(--content-font);
 }
@@ -81,12 +86,8 @@ p, a, li, blockquote, input {
     padding: var(--page-padding);
     margin-bottom: var(--page-padding);
 }
-.flight-select input {
-    width: 125px;
-    margin-left: var(--page-padding);
-}
 
-input {
+input, select {
     font-size: 24px;
     height: 42px;
     border: 2px solid var(--orange);
@@ -247,6 +248,15 @@ input {
     font-family: var(--heading-font);
     font-size: 24px;
     width: 100%;
+}
+
+.small {
+    background: var(--alabama-crimson);
+    border-color: transparent;
+    color: #fff;
+    cursor: pointer;
+    font-size: 24px;
+    border-radius: 5px;
 }
 
 .button.confirm:disabled {
